@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    display: flexbox;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+input[type=text], input[type=submit] {
+    width: 40%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit]{
+    background-color:royalblue;
+    color: white;
+    border:none;
+  }
+  
+  input[type=submit]:hover{
+    opacity:0.8;
+  }
+
+
+  
+  .contacto a{
+    padding: 10px;
+    font-size: 50px;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .contacto li{
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  .copy{
+    padding-top: 50px;
+  }
+  
+  .cuentas{
+    color: #c0aa83;
+  }
+  a{
+    text-decoration: none;
+  }
+
+  .cuentas a{
+    text-decoration: none;
+  }
+
+  .cuentas li:hover{
+    text-decoration: underline;
+  }
+
+  .contacto a:hover{
+    color: #c0aa83;
+  }
+
